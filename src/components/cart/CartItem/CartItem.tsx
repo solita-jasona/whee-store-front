@@ -43,7 +43,7 @@ const CartItem: React.FC<CartItemProps> = (props) => {
         <button className={classes.removeButton} onClick={removeProductHandler}>Remove</button>
       </div>
     </div>
-    <hr className={classes.line} />
+    <div className={classes.line} />
   </li>
 }
 
