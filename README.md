@@ -1,12 +1,14 @@
 # Whee store front
 
-This project was create with [Create React App](https://github.com/facebook/create-react-app). This project was created to test my technical skills with a stack I've recently learned. The project is currently purely frontend with no backend implementation.
+This project was created with [Create React App](https://github.com/facebook/create-react-app). This project was created to test my technical skills with a stack I've recently learned. The project is currently purely frontend with no backend implementation.
+
 The application is a storefront which has a list of products that can be added to the basket. The basket can then be edited (item quantities can be updated or removed entirely). The checkout button currently has no functionality
 
 ## Tech Stack
-React 
-Typescript
-Sass
+- React 
+- Typescript
+- Sass
+- Jest
 
 ## Requirements 
 - node (created with node v18.10.0)
