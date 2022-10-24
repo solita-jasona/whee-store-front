@@ -1,0 +1,15 @@
+.list {
+  list-style: none;
+  margin: auto;
+  width: 700px;
+  padding: 0px;
+  > * {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .list {
+    width: auto;
+  }
+}

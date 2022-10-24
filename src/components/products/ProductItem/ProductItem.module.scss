@@ -1,0 +1,78 @@
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "PlayFairDisplayRegular";
+
+  .productLeft {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .imageContainer {
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 125px;
+      }
+    }
+    
+    .infoContainer {
+      max-width: 200px;
+
+      h3 {
+        font-family: "PlayFairDisplayBoldItalic";
+        font-size: 36px;
+        margin: 0px;
+        text-transform: capitalize;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .productRight {
+    text-align: right;
+    .price {
+      font-size: 36px;
+      margin: 0 0 20px 0;
+    }
+
+    button {
+      font-family: "PlayFairDisplayBold";
+      font-size: 18px;
+      background: none;
+      cursor: pointer;
+      border: black solid 1px;
+      padding: 10px 30px 10px 30px;
+
+      &:hover {
+        border: black solid 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .productContainer {
+    flex-direction: column;
+
+    .productRight {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .productContainer {
+    .productLeft {
+      flex-direction: column;
+      gap: 10px;
+      > * {
+        margin: auto;
+        text-align: center;
+      }
+    }
+  }
+}
