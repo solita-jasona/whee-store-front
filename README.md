@@ -27,7 +27,7 @@ npm install
 
 To run the project (at http://localhost:3000 by default), run:
 ```
-npm install
+npm start
 ```
 
 To run and watch tests, run:
